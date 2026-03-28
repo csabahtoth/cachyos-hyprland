@@ -1,0 +1,8 @@
+[Added Associations]
+text/css=org.xfce.mousepad.desktop;
+text/plain=org.xfce.mousepad.desktop;
+application/octet-stream=org.xfce.mousepad.desktop;
+application/x-shellscript=org.xfce.mousepad.desktop;
+
+[Default Applications]
+application/octet-stream=org.xfce.mousepad.desktop;
