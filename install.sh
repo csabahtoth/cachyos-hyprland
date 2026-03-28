@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 # Copying configuration files into /home
-cp -r -i ./home/* ~/
+cp -r -i ./home/.* ~/
 
 # Installing software
 sudo pacman -Syu hyprland xdg-desktop-portal-hyprland hyprpolkitagent hyprpaper mako fuzzel thunar waybar cliphist mousepad greetd-tuigreet wlogout grimblast-git hyprlock hypridle nwg-look materia-gtk-theme qt6ct kvantum kvantum-theme-materia breeze-icons playerctl network-manager-applet
