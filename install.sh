@@ -16,5 +16,5 @@ gsettings set org.gnome.desktop.interface gtk-theme "Materia-dark"
 gsettings set org.gnome.desktop.interface icon-theme "breeze-dark"
 
 # Configuring and enabling greetd
-sudo cp ./etc/.* /etc/
+sudo cp -r -i ./etc/.* /etc/
 systemctl enable greetd
