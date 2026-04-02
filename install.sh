@@ -15,6 +15,8 @@ ln -s /usr/share/themes/Materia-dark/gtk-4.0/assets/ ~/.config/gtk-4.0/
 gsettings set org.gnome.desktop.interface gtk-theme "Materia-dark"
 gsettings set org.gnome.desktop.interface icon-theme "breeze-dark"
 
-# Configuring and enabling greetd
-sudo cp -r -i ./etc/.* /etc/
+# Configuring and enabling greetd with nwg-look
+sudo cp ./etc/greetd/greetd.conf /etc/greetd/
+sudo cp ./etc/nwg-hello/nwg-hello.css /etc/nwg-hello/
+sudo cp ./etc/nwg-hello/nwg-hello.json /etc/nwg-hello/
 systemctl enable greetd
