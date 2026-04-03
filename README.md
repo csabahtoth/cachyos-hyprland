@@ -34,17 +34,17 @@ systemctl reboot
 And then you're done
 
 ### Software Used
-**Wayland Compositor:** `hyprland`(duh)
-**Display Manager:** `greetd` and `nwg-look`
-**Authentication Agent:** `hyprpolkitagent`
-**Notification Daemon:** `mako`
-**File Manager:** `thunar`
-**Application Launcher:** `fuzzel`
-**Status Bar:** `waybar`
-**Clipboard Daemon:** `cliphist`
-**Screenshot Utility:** `grimblast-git`
-**Session Menu:** `wlogout`
-**Lockscreen:** `hyprlock`
-**Idle Handler:** `hypridle`
-**Theme Management:** `nwg-look`(GTK), `qt6ct`(QT), and `kvantum`(QT)
-**Themes:** `materia-gtk-theme`, `kvantum-theme-materia`, and `breeze-icons`
+* **Wayland Compositor:** `hyprland`(duh)
+* **Display Manager:** `greetd` and `nwg-look`
+* **Authentication Agent:** `hyprpolkitagent`
+* **Notification Daemon:** `mako`
+* **File Manager:** `thunar`
+* **Application Launcher:** `fuzzel`
+* **Status Bar:** `waybar`
+* **Clipboard Daemon:** `cliphist`
+* **Screenshot Utility:** `grimblast-git`
+* **Session Menu:** `wlogout`
+* **Lockscreen:** `hyprlock`
+* **Idle Handler:** `hypridle`
+* **Theme Management:** `nwg-look`(GTK), `qt6ct`(QT), and `kvantum`(QT)
+* **Themes:** `materia-gtk-theme`, `kvantum-theme-materia`, and `breeze-icons`
