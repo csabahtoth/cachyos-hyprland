@@ -1,6 +1,6 @@
 # cachyos-hyprland
 
-A simple script to be run after installing CachyOS to enable a starter Hyprland environment.
+A simple script to be run after [installing CachyOS](https://cachyos.org/download) to enable a starter Hyprland environment.
 
 I created this as a replacement for the now deprecated [`cachyos-hyprland-settings`](https://packages.cachyos.org/package/cachyos/any/cachyos-hyprland-settings) package that offered a lightly configured environment to start in rather than a completely vanilla experience. Whichever is suitable for you depends on your level of knowledge, but most beginners will have an easier time loading this script to experiment in a pre-built environment.
 
@@ -34,17 +34,17 @@ systemctl reboot
 And then you're done
 
 ### Software Used
-* **Wayland Compositor:** `hyprland`(duh)
-* **Display Manager:** `greetd` and `nwg-look`
-* **Authentication Agent:** `hyprpolkitagent`
-* **Notification Daemon:** `mako`
-* **File Manager:** `thunar`
-* **Application Launcher:** `fuzzel`
-* **Status Bar:** `waybar`
-* **Clipboard Daemon:** `cliphist`
-* **Screenshot Utility:** `grimblast-git`
-* **Session Menu:** `wlogout`
-* **Lockscreen:** `hyprlock`
-* **Idle Handler:** `hypridle`
-* **Theme Management:** `nwg-look`(GTK), `qt6ct`(QT), and `kvantum`(QT)
-* **Themes:** `materia-gtk-theme`, `kvantum-theme-materia`, and `breeze-icons`
+* **Wayland Compositor:** [`hyprland`](https://hypr.land/)(duh)
+* **Display Manager:** [`greetd`](https://git.sr.ht/~kennylevinsen/greetd) and [`nwg-hello`](https://github.com/nwg-piotr/nwg-hello)
+* **Authentication Agent:** [`hyprpolkitagent`](https://github.com/hyprwm/hyprpolkitagent)
+* **Notification Daemon:** [`mako`](https://github.com/emersion/mako)
+* **File Manager:** [`thunar`](https://docs.xfce.org/xfce/thunar/start)
+* **Application Launcher:** [`fuzzel`](https://codeberg.org/dnkl/fuzzel)
+* **Status Bar:** [`waybar`](https://github.com/Alexays/Waybar)
+* **Clipboard Daemon:** [`cliphist`](https://github.com/sentriz/cliphist)
+* **Screenshot Utility:** [`grimblast-git`](https://github.com/hyprwm/contrib/tree/main/grimblast)
+* **Session Menu:** [`wlogout`](https://github.com/ArtsyMacaw/wlogout)
+* **Lockscreen:** [`hyprlock`](https://github.com/hyprwm/hyprlock)
+* **Idle Handler:** [`hypridle`](https://github.com/hyprwm/hypridle)
+* **Theme Management:** [`nwg-look`](https://github.com/nwg-piotr/nwg-look)(GTK), [`qt6ct`](https://www.opencode.net/trialuser/qt6ct)(QT), and [`kvantum`](https://github.com/tsujan/Kvantum)(QT)
+* **Themes:** [`materia-gtk-theme`, `kvantum-theme-materia`](https://github.com/nana-4/materia-theme), and [`breeze-icons`](https://packages.cachyos.org/package/extra/x86_64/breeze-icons)
