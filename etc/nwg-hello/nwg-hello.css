@@ -40,16 +40,15 @@ button:hover {
 
 #welcome-label {
 	font-size: 48px;
-	color: rgba(0, 0, 0, 0.0)
 }
 
 #clock-label {
-	font-size: 64px;
+	font-size: 32px;
 	font-weight: bold
 }
 
 #date-label {
-	font-size: 32px
+	font-size: 24px
 }
 
 #form-label {
