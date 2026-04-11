@@ -61,5 +61,5 @@ And then you're done
 * $mainMod + E = Session Menu
 * $mainMod + L = Activate Lockscreen
 * PrintScreen = Create screenshot of designated area and add to clipboard
-* ALT + Printscreen = Create screenshot of active window and add to clipboard
-* CTRL + Printscreen = Create screenshot of active display and add to clipboard
+* ALT + PrintScreen = Create screenshot of active window and add to clipboard
+* CTRL + PrintScreen = Create screenshot of active display and add to clipboard
