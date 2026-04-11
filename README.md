@@ -55,8 +55,8 @@ And then you're done
 * $mainMod + SPACE = Open File Manager
 * $mainMod + Q = Kills Active Window
 * $mainMod + V = Toggle Floating Mode
-* $mainMod + F = Toggle fullscreen mode on active window
-* $mainMod + M = Toggle maximize mode on active window
+* $mainMod + F = Toggle Fullscreen Mode
+* $mainMod + M = Toggle Maximize Mode
 * $mainMod + R = Open Application Launcher
 * $mainMod + E = Session Menu
 * $mainMod + L = Activate Lockscreen
