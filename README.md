@@ -48,3 +48,18 @@ And then you're done
 * **Idle Handler:** [`hypridle`](https://github.com/hyprwm/hypridle)
 * **Theme Management:** [`nwg-look`](https://github.com/nwg-piotr/nwg-look)(GTK), [`qt6ct`](https://www.opencode.net/trialuser/qt6ct)(QT), and [`kvantum`](https://github.com/tsujan/Kvantum)(QT)
 * **Themes:** [`materia-gtk-theme`, `kvantum-theme-materia`](https://github.com/nana-4/materia-theme), and [`breeze-icons`](https://packages.cachyos.org/package/extra/x86_64/breeze-icons)
+
+### Important Keybindings
+* **SUPER/META/WINDOWS = Main Modifier Key**
+* $mainMod + RETURN = Open Terminal
+* $mainMod + SPACE = Open File Manager
+* $mainMod + Q = Kills Active Window
+* $mainMod + V = Toggle Floating Mode
+* $mainMod + F = Toggle fullscreen mode on active window
+* $mainMod + M = Toggle maximize mode on active window
+* $mainMod + R = Open Application Launcher
+* $mainMod + E = Session Menu
+* $mainMod + L = Activate Lockscreen
+* PrintScreen = Create screenshot of designated area and add to clipboard
+* ALT + Printscreen = Create screenshot of active window and add to clipboard
+* CTRL + Printscreen = Create screenshot of active display and add to clipboard
