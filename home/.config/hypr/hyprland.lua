@@ -34,9 +34,9 @@ local menu        = "fuzzel"
 local lockscreen  = "hyprlock"
 
 -- Screenshotting
-local shot-region = "grimblast copy area"
-local shot-window = "grimblast copy active"
-local shot-screen = "grimblast copy output"
+local shotarea = "grimblast copy area"
+local shotactive = "grimblast copy active"
+local shotoutput = "grimblast copy output"
 
 -------------------
 ---- AUTOSTART ----
@@ -273,9 +273,9 @@ hl.bind(mainMod .. " + E", hl.dsp.exec_cmd("wlogout"))
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd(screenlock))
 
 -- Screenshotting
-hl.bind("Print", hl.dsp.exec_cmd(shot-region))
-hl.bind("ALT + Print", hl.dsp.exec_cmd(show-window))
-hl.bind("CTRL + Print", hl.dsp.exec_cmd(shot-screen))
+hl.bind("Print", hl.dsp.exec_cmd(shotarea))
+hl.bind("ALT + Print", hl.dsp.exec_cmd(shotactive))
+hl.bind("CTRL + Print", hl.dsp.exec_cmd(shotoutput))
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left",  hl.dsp.focus({ direction = "left" }))
