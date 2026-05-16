@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 # Copying configuration files into ~
-cp -r -i -v ./home/.* ~/
+cp -r -i -v ./home/ ~/
 
 # Installing software
 sudo pacman -Syu hyprland xdg-desktop-portal-hyprland hyprpolkitagent hyprpaper mako fuzzel thunar waybar cliphist mousepad nwg-hello wlogout grimblast-git hyprlock hypridle nwg-look materia-gtk-theme qt6ct kvantum kvantum-theme-materia breeze-icons playerctl network-manager-applet
@@ -16,6 +16,6 @@ gsettings set org.gnome.desktop.interface gtk-theme "Materia-dark"
 gsettings set org.gnome.desktop.interface icon-theme "breeze-dark"
 
 # Configuring and enabling greetd with nwg-look
-sudo cp ./etc/greetd/greetd.conf /etc/greetd/
-sudo cp ./etc/nwg-hello/* /etc/nwg-hello/
+sudo cp ./etc/greetd/ /etc/
+sudo cp ./etc/nwg-hello/ /etc/
 systemctl enable greetd
