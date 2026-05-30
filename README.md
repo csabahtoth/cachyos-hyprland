@@ -6,8 +6,8 @@ I created this as a replacement for the now deprecated [`cachyos-hyprland-settin
 
 ### Installation Instructions
 1. Run the CachyOS Installer and do whatever you wish until you get to the desktop environment selection.
-2. It is not important that you select Hyprland as your desktop environment. In fact, it's probably best if you don't select one at all("No Desktop"). The script will install all of the necessary packages.
-3. Do whatever you want in the Additional Packages section as long as you don't select any desktop environment software. I'd also advise leaving the `cachyos-wallpapers` package checked unless you will be immediately changing the wallpapers in the login greeter(`nwg-look`) and the desktop background(`hyprpaper`).
+2. Select "No Desktop" as your desktop environment. You should do this instead of selecting "Hyprland" because doing that activates a suite of software that are unnecessary and unused. "No Desktop" ensures that you only install what you need since the install script will take care of everything that Hyprland needs to run.
+3. Do whatever you want in the Additional Packages section as long as you don't select anything from inside the desktop environment menus. I'd also advise leaving the `cachyos-wallpapers` package checked unless you will be immediately changing the wallpapers in the login greeter(`nwg-look`) and the desktop background(`hyprpaper`).
 4. Complete the installation.
 5. You will reboot into a `tty` since we selected no display manager package in the installer. Log in.
 6. Clone the git repository:
@@ -41,7 +41,7 @@ And then you're done
 * **File Manager:** [`thunar`](https://docs.xfce.org/xfce/thunar/start)
 * **Application Launcher:** [`fuzzel`](https://codeberg.org/dnkl/fuzzel)
 * **Status Bar:** [`waybar`](https://github.com/Alexays/Waybar)
-* **Clipboard Daemon:** [`cliphist`](https://github.com/sentriz/cliphist)
+* **Clipboard Daemon:** [`wl-clipboard`](https://github.com/bugaevc/wl-clipboard) and [`cliphist`](https://github.com/sentriz/cliphist)
 * **Screenshot Utility:** [`grimblast-git`](https://github.com/hyprwm/contrib/tree/main/grimblast)
 * **Session Menu:** [`wlogout`](https://github.com/ArtsyMacaw/wlogout)
 * **Lockscreen:** [`hyprlock`](https://github.com/hyprwm/hyprlock)
@@ -51,15 +51,15 @@ And then you're done
 
 ### Important Keybindings
 * **SUPER/META/WINDOWS = Main Modifier Key**
-* $mainMod + RETURN = Open Terminal
-* $mainMod + SPACE = Open File Manager
-* $mainMod + Q = Kills Active Window
-* $mainMod + V = Toggle Floating Mode
-* $mainMod + F = Toggle Fullscreen Mode
-* $mainMod + M = Toggle Maximize Mode
-* $mainMod + R = Open Application Launcher
-* $mainMod + E = Session Menu
-* $mainMod + L = Activate Lockscreen
+* SUPER + RETURN = Open Terminal
+* SUPER + SPACE = Open File Manager
+* SUPER + Q = Kills Active Window
+* SUPER + V = Toggle Floating Mode
+* SUPER + F = Toggle Fullscreen Mode
+* SUPER + M = Toggle Maximize Mode
+* SUPER + R = Open Application Launcher
+* SUPER + E = Session Menu
+* SUPER + L = Activate Lockscreen
 * PrintScreen = Create screenshot of designated area and add to clipboard
 * ALT + PrintScreen = Create screenshot of active window and add to clipboard
 * CTRL + PrintScreen = Create screenshot of active display and add to clipboard
