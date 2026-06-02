@@ -7,7 +7,7 @@ I created this as a replacement for the now deprecated [`cachyos-hyprland-settin
 ### Installation Instructions
 1. Run the CachyOS Installer and do whatever you wish until you get to the desktop environment selection.
 2. Select "No Desktop" as your desktop environment. You should do this instead of selecting "Hyprland" because doing that activates a suite of software that are unnecessary and unused. "No Desktop" ensures that you only install what you need since the install script will take care of everything that Hyprland needs to run.
-3. Do whatever you want in the Additional Packages section as long as you don't select anything from inside the desktop environment menus. I'd also advise leaving the `cachyos-wallpapers` package checked unless you will be immediately changing the wallpapers in the login greeter(`nwg-look`) and the desktop background(`hyprpaper`).
+3. Do whatever you want in the Additional Packages section as long as you don't select anything from inside the desktop environment menus. I'd also advise leaving the `cachyos-wallpapers` package checked unless you will be immediately changing the wallpapers in the login greeter(`nwg-hello`) and the desktop background(`hyprpaper`).
 4. Complete the installation.
 5. You will reboot into a `tty` since we selected no display manager package in the installer. Log in.
 6. Clone the git repository:
